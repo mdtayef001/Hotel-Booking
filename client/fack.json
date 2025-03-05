@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Grand Luxury Hotel",
+    "location": "New York City, USA",
+    "description": "Experience the ultimate luxury in the heart of New York City.",
+    "pricePerNight": 250,
+    "rating": 4.8,
+    "amenities": ["Free Wi-Fi", "Swimming Pool", "Spa", "Gym", "Room Service"],
+    "image": "https://via.placeholder.com/400x300?text=Grand+Luxury+Hotel"
+  },
+  {
+    "name": "Coastal Paradise Resort",
+    "location": "Malibu, USA",
+    "description": "Relax by the beach with stunning ocean views and premium services.",
+    "pricePerNight": 300,
+    "rating": 4.7,
+    "amenities": ["Beach Access", "Free Breakfast", "Infinity Pool", "Bar"],
+    "image": "https://via.placeholder.com/400x300?text=Coastal+Paradise+Resort"
+  },
+  {
+    "name": "Mountain Escape Lodge",
+    "location": "Aspen, USA",
+    "description": "A cozy mountain lodge perfect for a winter getaway.",
+    "pricePerNight": 180,
+    "rating": 4.5,
+    "amenities": ["Ski Access", "Fireplace", "Hot Tub", "Free Parking"],
+    "image": "https://via.placeholder.com/400x300?text=Mountain+Escape+Lodge"
+  },
+  {
+    "name": "Urban Comfort Hotel",
+    "location": "Tokyo, Japan",
+    "description": "Modern comfort and convenience in the bustling city of Tokyo.",
+    "pricePerNight": 200,
+    "rating": 4.6,
+    "amenities": [
+      "Free Wi-Fi",
+      "Rooftop Bar",
+      "Fitness Center",
+      "Laundry Service"
+    ],
+    "image": "https://via.placeholder.com/400x300?text=Urban+Comfort+Hotel"
+  },
+  {
+    "name": "Desert Oasis Resort",
+    "location": "Dubai, UAE",
+    "description": "A luxurious escape in the heart of the desert.",
+    "pricePerNight": 350,
+    "rating": 4.9,
+    "amenities": ["Private Villas", "Desert Safari", "Spa", "Fine Dining"],
+    "image": "https://via.placeholder.com/400x300?text=Desert+Oasis+Resort"
+  },
+  {
+    "name": "Lakeside Retreat",
+    "location": "Lake Tahoe, USA",
+    "description": "A peaceful retreat by the lake, perfect for nature lovers.",
+    "pricePerNight": 220,
+    "rating": 4.7,
+    "amenities": ["Lake Access", "Boating", "Hiking Trails", "Pet-Friendly"],
+    "image": "https://via.placeholder.com/400x300?text=Lakeside+Retreat"
+  },
+  {
+    "name": "Historic Castle Hotel",
+    "location": "Edinburgh, Scotland",
+    "description": "Stay in a historic castle with modern amenities.",
+    "pricePerNight": 275,
+    "rating": 4.8,
+    "amenities": ["Historic Tours", "Fine Dining", "Garden", "Free Breakfast"],
+    "image": "https://via.placeholder.com/400x300?text=Historic+Castle+Hotel"
+  },
+  {
+    "name": "Tropical Island Resort",
+    "location": "Bali, Indonesia",
+    "description": "A tropical paradise with pristine beaches and lush greenery.",
+    "pricePerNight": 280,
+    "rating": 4.9,
+    "amenities": ["Beachfront", "Spa", "Yoga Classes", "All-Inclusive"],
+    "image": "https://via.placeholder.com/400x300?text=Tropical+Island+Resort"
+  },
+  {
+    "name": "City Center Suites",
+    "location": "London, UK",
+    "description": "Conveniently located suites in the heart of London.",
+    "pricePerNight": 190,
+    "rating": 4.4,
+    "amenities": ["Free Wi-Fi", "Kitchenette", "24/7 Concierge", "Laundry"],
+    "image": "https://via.placeholder.com/400x300?text=City+Center+Suites"
+  },
+  {
+    "name": "Safari Adventure Lodge",
+    "location": "Nairobi, Kenya",
+    "description": "Embark on an unforgettable safari adventure.",
+    "pricePerNight": 320,
+    "rating": 4.8,
+    "amenities": [
+      "Safari Tours",
+      "Wildlife Views",
+      "Outdoor Pool",
+      "Free Meals"
+    ],
+    "image": "https://via.placeholder.com/400x300?text=Safari+Adventure+Lodge"
+  }
+]
