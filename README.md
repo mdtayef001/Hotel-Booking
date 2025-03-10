@@ -29,12 +29,12 @@ HotelBooking is a modern **Hotel Booking Platform** designed to provide users wi
 - **React Leaflet**: For interactive maps.
 - **React Day Picker**: For date selection.
 - **SweetAlert2**: For beautiful and customizable alerts.
+- **Firebase**: For frontend authentication and hosting.
 
 ### **Backend**
 - **Express.js**: Backend framework for building RESTful APIs.
 - **MongoDB**: NoSQL database for storing data (e.g., users, hotels, bookings).
 - **JWT (JSON Web Tokens)**: For secure user authentication.
-- **Firebase**: For frontend authentication and hosting.
 
 ---
 
