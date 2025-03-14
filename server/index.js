@@ -10,8 +10,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://hotel-booking-19def.firebaseapp.com",
-      "https://hotel-booking-19def.web.app",
+      "https://hotelbooking-76ba7.web.app",
+      "https://hotelbooking-76ba7.firebaseapp.com",
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
