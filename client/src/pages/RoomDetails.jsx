@@ -93,10 +93,7 @@ const RoomDetails = () => {
             </p>
           </div>
           <div className="font-medium text-lg ">{roomData.description}</div>
-          <div className="my-10">
-            <Reviews />
-          </div>
-          <div className="mb-10">
+          <div className=" my-10">
             <b>Facilities:</b>
             <ul>
               {roomData.amenities.map((fac, i) => (
@@ -106,10 +103,14 @@ const RoomDetails = () => {
               ))}
             </ul>
           </div>
-          <div className="text-center">
+          <div>
+            <Reviews />
+          </div>
+
+          <div className="text-center lg:my-24 my-10">
             <button
               onClick={handleBookNow}
-              className="btn btn-lg lg:w-[20%] bg-blue-500 text-white hover:bg-blue-600"
+              className="btn btn-lg lg:w-[20%] text-white bg-[#008489] hover:bg-[#008489]"
             >
               Book Now
             </button>
@@ -161,7 +162,7 @@ const RoomDetails = () => {
                   </label>
                   <p>{roomData.description}</p>
 
-                  <button className="btn btn-lg  bg-blue-500 text-white hover:bg-blue-600">
+                  <button className="btn btn-lg  text-white bg-[#008489] hover:bg-[#008489]">
                     confirm
                   </button>
                 </form>

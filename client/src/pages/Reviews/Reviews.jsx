@@ -24,8 +24,8 @@ const Reviews = () => {
   }, [axiosPublic]);
   return (
     <>
-      <div className="mt-20">
-        <h1 className="text-center text-3xl font-bold mb-10 ">
+      <div className="lg:mt-24 mt-10">
+        <h1 className="text-center text-3xl font-bold lg:mb-24 mb-10">
           <span className="text-[#008489]">Reviews</span>
         </h1>
 

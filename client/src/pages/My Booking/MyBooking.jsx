@@ -52,8 +52,15 @@ const MyBooking = () => {
 
   if (userLoading || loading) return <Loading />;
 
+  if (booking.length <= 0)
+    return (
+      <section className="min-h-screen">
+        <h1 className="text-center my-24 font-bold text-5xl">No Data Found</h1>
+      </section>
+    );
+
   return (
-    <section className="container mx-auto my-20">
+    <section className="container mx-auto my-20 min-h-screen">
       <h1 className="text-3xl text-center font-bold text-[#008489]">
         My Booking
       </h1>

@@ -20,14 +20,14 @@ const Home = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className="container mx-auto my-10 p-2">
+    <section className="container mx-auto lg:mt-24 mt-10 p-2">
       {/* banner slider */}
-      <div className="mb-20">
+      <div className="lg:mb-24 mb-10">
         <Slider {...settings}>
           {/* slider-1 */}
           <div className="rounded-lg">
             <div
-              className="relative bg-cover bg-center h-[400px] flex items-center justify-center text-center rounded-lg"
+              className="relative bg-cover bg-center lg:h-[600px] h-[400px] flex items-center justify-center text-center rounded-lg"
               style={{
                 backgroundImage:
                   "url('https://cdn.airalo.com/images/681b2b17-6a84-4dda-84b7-b6bc8256adb1.jpg')",
@@ -56,7 +56,7 @@ const Home = () => {
           {/* slider-2 */}
           <div className="rounded-lg">
             <div
-              className="relative bg-cover bg-center h-[400px] flex items-center justify-center text-center rounded-lg"
+              className="relative bg-cover bg-center lg:h-[600px] h-[400px] flex items-center justify-center text-center rounded-lg"
               style={{
                 backgroundImage:
                   "url('https://greeking.me/images/blog/images/Italy-Vacations/Weather-in-Italy-in-June/weather-in-italy-in-june-intro.jpg')",
@@ -85,7 +85,7 @@ const Home = () => {
           {/* slider3 */}
           <div className="rounded-lg">
             <div
-              className="relative bg-cover bg-center h-[400px] flex items-center justify-center text-center rounded-lg"
+              className="relative bg-cover bg-center lg:h-[600px] h-[400px] flex items-center justify-center text-center rounded-lg"
               style={{
                 backgroundImage:
                   "url('https://blog.italotreno.com/wp-content/uploads/2022/04/costiera-amalfitana.jpg')",
@@ -115,18 +115,18 @@ const Home = () => {
         </Slider>
       </div>
       {/* map section */}
-      <div>
-        <h1 className="text-center text-3xl font-bold mb-10 dark:text-white">
+      <div className="lg:mt-24 mt-10">
+        <h1 className="text-center text-3xl font-bold lg:mb-24 mb-10 dark:text-white">
           Location of <span className="text-[#008489]">Hotels</span>
         </h1>
         <Map />
       </div>
       {/* Featured Rooms */}
-      <div className="mt-20">
-        <h1 className="text-center text-3xl font-bold mb-10 dark:text-white">
+      <div className="lg:mt-24 mt-10">
+        <h1 className="text-center text-3xl font-bold lg:mb-24 mb-10 dark:text-white">
           Featured <span className="text-[#008489]">Rooms</span>
         </h1>
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 lg:gap-8 ">
           {roomData.map((room) => (
             <RoomCard key={room._id} room={room} />
           ))}
@@ -135,8 +135,8 @@ const Home = () => {
       {/* user reviews */}
       <Reviews />
       {/* offers */}
-      <div className="mt-20">
-        <h1 className="text-center text-3xl font-bold mb-10">
+      <div className="lg:mt-24 mt-10">
+        <h1 className="text-center text-3xl font-bold lg:mb-24 mb-10">
           <span className="text-[#008489]">Offers</span>
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 text-black text-center lg:text-left">
@@ -150,7 +150,7 @@ const Home = () => {
                 Finish your year with a mini break. Save 15% or more when you
                 book <br /> and stay by January 7, 2025
               </p>
-              <button className="p-3 bg-[#3B82F6] rounded-lg text-white">
+              <button className="p-3 bg-[#008489] rounded-lg text-white font-semibold">
                 Find the best deal
               </button>
             </div>
@@ -172,7 +172,7 @@ const Home = () => {
                 Finish your year with a mini break. Save 15% or more when you
                 book <br /> and stay by January 7, 2025
               </p>
-              <button className="p-3 bg-[#3B82F6] rounded-lg  text-white ">
+              <button className="p-3 bg-[#008489] rounded-lg font-semibold text-white ">
                 Save 18% or more
               </button>
             </div>
@@ -188,10 +188,10 @@ const Home = () => {
       </div>
 
       {/* Subscribe */}
-      <h1 className="text-center text-3xl font-bold mt-20">
+      <h1 className="text-center text-3xl font-bold lg:mt-24 mt-10">
         <span className="text-[#008489]">Subscribe</span>
       </h1>
-      <div className="bg-[url('https://tripfinder-boat.vercel.app/_next/image?url=%2Fimages%2Fbanner%2F3.jpg&w=1920&q=100')] bg-center rounded-lg py-20 px-1  lg:p-20 text-right lg:flex items-center justify-between mt-10">
+      <div className="bg-[url('https://tripfinder-boat.vercel.app/_next/image?url=%2Fimages%2Fbanner%2F3.jpg&w=1920&q=100')] bg-center rounded-lg py-20 px-1  lg:p-20 text-right lg:flex items-center justify-between lg:my-24 my-10">
         <div></div>
         <div className="text-white text-center lg:text-left">
           <h1 className="font-bold lg:font-black text-2xl lg:text-5xl lg:mb-6 mb-3">
@@ -206,7 +206,7 @@ const Home = () => {
               className="input bg-white input-bordered join-item w-full"
               placeholder="Email"
             />
-            <button className="btn bg-[#3B82F6] border-none hover:bg-[#008489] join-item text-white">
+            <button className="btn bg-[#008489] border-none hover:bg-[#008489e3] join-item text-white">
               Subscribe
             </button>
           </div>

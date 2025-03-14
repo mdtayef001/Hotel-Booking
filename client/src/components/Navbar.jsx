@@ -89,7 +89,7 @@ const Navbar = () => {
           {user ? (
             <Link
               onClick={handleLogout}
-              className="btn text-black dark:text-white"
+              className="btn dark:text-white  bg-[#008489]"
             >
               Logout
             </Link>

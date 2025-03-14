@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const RoomCard = ({ room }) => {
   return (
-    <div className="rounded shadow-lg bg-white dark:bg-black dark:text-white w-full h-full">
+    <div className="rounded-2xl shadow-lg bg-white dark:bg-black dark:text-white w-full h-full">
       <img
-        className="w-full h-48 object-cover"
+        className="w-full h-48 object-cover rounded-t-2xl"
         src={room.image}
         alt={room.name}
       />
