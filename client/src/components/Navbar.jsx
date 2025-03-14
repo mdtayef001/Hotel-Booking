@@ -36,7 +36,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="container mx-auto pt-5 nav">
+    <nav className="container mx-auto pt-5 ">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -94,7 +94,7 @@ const Navbar = () => {
               Logout
             </Link>
           ) : (
-            <Link to={"/auth/login"} className="btn text-black dark:text-white">
+            <Link to={"/auth/login"} className="btn text-white bg-[#008489]">
               Login
             </Link>
           )}

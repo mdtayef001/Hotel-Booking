@@ -54,11 +54,6 @@ const Login = () => {
   return (
     <section className="mt-20 p-2">
       <div className="text-center dark:text-white">
-        <button className="mb-4">
-          <Link className="text-2xl font-semibold " to={"/"}>
-            Logo
-          </Link>
-        </button>
         <h1 className="text-4xl font-bold mb-2">Welcome Back</h1>
         <p className="text-2xl font-medium">Please log into your account</p>
       </div>
@@ -108,7 +103,7 @@ const Login = () => {
             </div>
           </div>
           <div className="lg:w-[60%] mx-auto">
-            <button className="btn w-full text-white bg-blue-500 hover:bg-blue-600 text-xl">
+            <button className="btn w-full text-white bg-[#008489] hover:bg-[#008489dc] text-xl">
               Login
             </button>
           </div>

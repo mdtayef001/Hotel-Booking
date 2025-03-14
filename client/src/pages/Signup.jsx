@@ -69,12 +69,7 @@ const Signup = () => {
   return (
     <section className="mt-20 p-2">
       <div className="text-center dark:text-white">
-        <button className="mb-4">
-          <Link className="text-2xl font-semibold " to={"/"}>
-            Logo
-          </Link>
-        </button>
-        <h1 className="text-4xl font-bold mb-2">Welcome To TripFinder</h1>
+        <h1 className="text-4xl font-bold mb-2">Welcome To HotelBooking.</h1>
         <p className="text-2xl font-medium">Please Register for your account</p>
       </div>
       {/* inputs */}
@@ -171,7 +166,7 @@ const Signup = () => {
             )}
           </div>
           <div className="lg:w-[60%] mx-auto">
-            <button className="btn w-full text-white bg-blue-500 hover:bg-blue-600 text-xl">
+            <button className="btn w-full text-white bg-[#008489] hover:bg-[#008489dc] text-xl">
               Signup
             </button>
           </div>
