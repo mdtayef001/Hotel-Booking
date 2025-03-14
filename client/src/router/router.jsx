@@ -20,8 +20,8 @@ const router = createBrowserRouter([
         element: <Home />,
         loader: () =>
           fetch(
-            "http://localhost:5000/rooms?limit=6"
-            // `https://b10a11-server-side-mdtayef001.vercel.app/rooms?limit=6`
+            // "http://localhost:5000/rooms?limit=6"
+            `https://hotel-booking-sever.vercel.app/rooms?limit=6`
           ),
       },
       {
@@ -29,8 +29,8 @@ const router = createBrowserRouter([
         element: <Rooms />,
         loader: () =>
           fetch(
-            "http://localhost:5000/rooms"
-            // `https://b10a11-server-side-mdtayef001.vercel.app/rooms`
+            // "http://localhost:5000/rooms"
+            `https://hotel-booking-sever.vercel.app/rooms`
           ),
       },
       {
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
         element: <RoomDetails />,
         loader: ({ params }) =>
           fetch(
-            `https://b10a11-server-side-mdtayef001.vercel.app/rooms?id=${params.id}`
+            `https://hotel-booking-sever.vercel.app/rooms?id=${params.id}`
             // `http://localhost:5000/rooms?id=${params.id}`
           ),
       },
